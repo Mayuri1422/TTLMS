@@ -3,7 +3,7 @@ import { HealthService } from './health.service';
 import { HealthController } from './health.controller';
 
 @Module({
-  imports: [HealthModule,HealthController],
+  imports: [HealthModule],
   controllers: [HealthController],
   providers: [HealthService],
 })
